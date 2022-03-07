@@ -1,0 +1,19 @@
+{
+    "type": "mysql",
+    "host": "localhost",
+    "port": 3306,
+    "username": "root",
+    "password": "123456",
+    "database": "pentaValue",
+    "synchronize": true,
+    "logging": false,
+    "entities": [
+       "src/infrastructure/models/**/*.ts"
+    ],
+    "migrations": [
+       "src/infrastructure/migration/**/*.ts"
+    ],
+    "subscribers": [
+       "src/infrastructure/subscriber/**/*.ts"
+    ]
+ }
